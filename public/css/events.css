@@ -26,25 +26,25 @@ nav {
     padding-right: 10%;
 }
 
-  .wrapper .page-title {
+.wrapper .page-title {
     text-align: center;
       font-size: 36px;
       margin-top: 50px;
       color: white;
-  }
+}
   
-  .wrapper .container {
+.wrapper .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     max-width: 100vw;
     margin: 40px 0;
-    padding-bottom: 100px; 
+   
 
-  }
+}
   
-  .wrapper .container .card {
+.wrapper .container .card {
     position: relative;
     min-width: 320px;
     height: 440px;
@@ -54,25 +54,24 @@ nav {
     border-radius: 15px;
     margin: 30px;
     transition: 0.5s;
-  }
+}
   
-  .wrapper .contianer .card:nth-child(1) .box .content a {
+.wrapper .contianer .card:nth-child(1) .box .content a {
     background: #23c186;
-  }
+}
   
-  .wrapper .container .card:nth-child(2) .box .content a {
+.wrapper .container .card:nth-child(2) .box .content a {
     background: #23c186;
-  }
+}
   
-  .wrapper .container .card:nth-child(3) .box .content a {
+.wrapper .container .card:nth-child(3) .box .content a {
     background: #23c186;
-  }
+}
 
-  .wrapper .container .card:nth-child(4) .box .content a {
-    background: #23c186;
-  }
-  
-  .wrapper .container .card .box {
+.wrapper .container .card:nth-child(4) .box .content a {
+    background: #23c186 }
+
+.wrapper .container .card .box {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -84,13 +83,9 @@ nav {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    transition: 0.5s;
-  }
-  
-  .wrapper .container .card .box:hover {
-    transform: translateY(-50px);
-  }
-  
+    transition: 0.5s}
+.wrapper .container .card .box:hover {
+    transform: translateY(-50px)}
   .wrapper .container .card .box:before {
     content: "";
     position: absolute;
@@ -98,25 +93,18 @@ nav {
     left: 0;
     width: 50%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.03);
-  }
-  
+    background: rgba(255, 255, 255, 0.03);}
   .wrapper .container .card .box .content {
     padding: 20px;
-    text-align: center;
-  }
-  
+    text-align: center;}
   .wrapper .container .card .box .content h2 {
     position: absolute;
     top: -10px;
     right: 30px;
     font-size: 7rem;
-    color: rgba(255, 255, 255, 0.1);
-  }
-
-  .wrapper .container .card .box .content h2 span {
-    font-size: 3.5rem;
-  }
+    color: rgba(255, 255, 255, 0.1);}
+.wrapper .container .card .box .content h2 span {
+    font-size: 3.5rem;}
   
   .wrapper .container .card .box .content h3 {
     font-size: 1.8rem;
@@ -124,17 +112,13 @@ nav {
     text-transform: uppercase;
     z-index: 1;
     transition: 0.5s;
-    margin-bottom: 15px;
-  }
-  
+    margin-bottom: 15px;}
   .wrapper .container .card .box .content p {
     font-size: 1rem;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.9);
     z-index: 1;
-    transition: 0.5s;
-  }
-  
+    transition: 0.5s;}
   .wrapper .container .card .box .content a {
     position: relative;
     display: inline-block;
@@ -145,17 +129,14 @@ nav {
     color: white;
     margin-top: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
-  }
-  .wrapper .container .card .box .content a:hover {
+    transition: 0.5s;}.wrapper .container .card .box .content a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
     background: #fff;
-    color: #000;
-  }
+    color: #000;}
 
-  .event-page-title {
+.event-page-title {
     width: 100vw;
-  }
+}
 
   h1.page-title {
     font-size: 3rem;
@@ -181,5 +162,4 @@ nav {
    color: white;
    padding-top: 20px;
   }
-
 
