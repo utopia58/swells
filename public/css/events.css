@@ -56,7 +56,7 @@ nav {
     transition: 0.5s;
   }
   
-  .wrapper .container .card:nth-child(1) .box .content a {
+  .wrapper .contianer .card:nth-child(1) .box .content a {
     background: #23c186;
   }
   
